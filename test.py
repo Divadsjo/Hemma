@@ -1,6 +1,7 @@
-h = "20        12"
-s = h.split("    ")
-print(s)
-a = str(input(""))
-b = a.split("    ")
-print(b)
+word = "hejhej"
+wordList = []
+s = ["_", ""]
+for x in word:
+    wordList.append(x)
+    wordList.append(" ")
+print (wordList)

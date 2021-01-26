@@ -123,6 +123,8 @@ def gissningarKvar(fel):
 
 
 
+
+
 def continueGame():
     print("\n----------------------------------------------------\n            Continue game?\n\n(1) Play again\n\n(2) Exit game\n")
     continueAnswer = int(input(""))
@@ -175,7 +177,7 @@ while True:
             if playAgain() == 2:
                 exit()
             break
-        elif gissning == ord:
+        elif "".join(gissning) == ord:
             print("Wohoo du gissade på rätt ord!")
             if playAgain() == 2:
                 exit()
