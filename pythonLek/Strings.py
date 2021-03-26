@@ -52,7 +52,12 @@ print(n)
 # 5. Skriv ett program som låter användaren mata in ett ord.
 # (a) Kryptera därefter meddelandet genom att ersätta varje bokstav med nästa bokstav. Är
 # bokstaven Ö ska den ersättas med A. Exempel: ”höjd” → ”iake” (**)
+
+# Har redan gjort i början av prog 1
+
 # (b) Dekryptera nu meddelandet. Exempel ”lösmfl” → ”kärlek” (**)
+
+
 
 # (c) Låt användaren skriva in ett meddelande, välja kryptera/dekryptera och utför kryptering-
 # en/dekrypteringen.

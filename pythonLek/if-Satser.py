@@ -137,9 +137,22 @@ b = b/a
 c = c/a
 a = 1
 undersqrt = (b/2)**2 - c
-x1 = -(b/2)+math.sqrt(undersqrt)
-x2 = -(b/2)-math.sqrt(undersqrt)
 if undersqrt < 0:
-    print("saknar reella röter")
+    print("Saknar reella röter")
 else:
-    print("x1 = ", x1,"x2 = ", x2)
+    x1 = -(b/2)+math.sqrt(undersqrt)
+    x2 = -(b/2)-math.sqrt(undersqrt)
+    if x1 == x2:
+        print("x1 = x2 = ",x1)
+    else:
+        print("x1 = ", x1,"\nx2 = ", x2)
+
+# 11. Skriv ett program som låter användaren mata in en punkt (x1, y1) och låt programmet avgöra
+# om punkten ligger på linjen som beskrivs av funktionen f(x) = 3x + 5.
+
+x = int(input("x = "))
+y = int(input("y = "))
+if x*3+5 == y:
+    print("Punkten ligger på linjen")
+else:
+    print("Punkten ligger inte på linjen"+)

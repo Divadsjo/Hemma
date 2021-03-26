@@ -93,3 +93,4 @@ for x in range(n+1):
     s += 1/nominator
     nominator = 1
 print(s)
+
