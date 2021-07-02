@@ -1,7 +1,7 @@
 import math
 import random
 
-n = 100000 #Mängd omgångar
+n = 5000 #Mängd omgångar
 a = 2 #Mängd tärningskast per figurantal
 b = 7 #Maxmängden figurer
 
@@ -68,3 +68,11 @@ sums.append(temp)
 temp = []
 # print(sums)
 print(sum(sums[0])/n,sum(sums[1])/n,sum(sums[2])/n,sum(sums[3])/n)
+wins = [0,0]
+print(len(sums[0]),len(sums[3]))
+for x in range(n):
+    if sums[0][x] > sums[3][x]:
+        wins[0] += 1
+    elif sums[0][x] < sums[3][x]:
+        wins[1] += 1
+print(wins)
